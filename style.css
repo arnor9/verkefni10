@@ -41,8 +41,13 @@ h1 {
   line-height: 1.1;
   color:red;
 }
+.saga{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
-#app {
+.wrapper {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -52,6 +57,7 @@ h1 {
 .logo {
   height: 15em;
   padding: 1.5em;
+  padding-bottom: 5rem;
   will-change: filter;
 }
 .logo:hover {
