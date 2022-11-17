@@ -1,15 +1,12 @@
-const { defineConfig } = require('vite')
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
-module.exports = defineConfig({
+export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: './index.html',
-        about: './sida.html',
-        capture: './capture.js',
-        animation: './animation.js'
-        // ...
-        // List all files you want in your build
+        main: resolve(__dirname, 'index.html'),
+        nested: resolve(__dirname, 'sida.html')
       }
     }
   }

@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "vite-plugin-mpa": "^1.1.4",
     "@vitejs/plugin-legacy": "^2.3.1",
