@@ -103,13 +103,6 @@ button:focus-visible {
 .mynd {
   width: 10%;
 }
-.scroll-tracker{
-  position: fixed;
-  inset: 0 0 auto;
-  height: 0.5rem;
-  background-color: #0bd1f5;
-  transform-origin: left;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
